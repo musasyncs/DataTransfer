@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		BA81DD572701092E0092FFB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA81DD562701092E0092FFB5 /* AppDelegate.swift */; };
 		BA81DD592701092E0092FFB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA81DD582701092E0092FFB5 /* SceneDelegate.swift */; };
-		BA81DD5B2701092E0092FFB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA81DD5A2701092E0092FFB5 /* ViewController.swift */; };
 		BA81DD5E2701092E0092FFB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA81DD5C2701092E0092FFB5 /* Main.storyboard */; };
 		BA81DD60270109310092FFB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA81DD5F270109310092FFB5 /* Assets.xcassets */; };
 		BA81DD63270109310092FFB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA81DD61270109310092FFB5 /* LaunchScreen.storyboard */; };
+		BA81DD6B27010A450092FFB5 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA81DD6A27010A450092FFB5 /* ContactsTableViewController.swift */; };
+		BA81DD6F27010AA30092FFB5 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA81DD6E27010AA30092FFB5 /* Contact.swift */; };
+		BA81DD7327010C120092FFB5 /* UIVIew - Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA81DD7227010C120092FFB5 /* UIVIew - Extensions.swift */; };
+		BA81DD7A2701142A0092FFB5 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA81DD792701142A0092FFB5 /* DetailTableViewController.swift */; };
+		BA81DD7C2701C8130092FFB5 /* BlueEditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA81DD7B2701C8130092FFB5 /* BlueEditTableViewController.swift */; };
+		BA81DD7E2701F0B10092FFB5 /* RedEditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA81DD7D2701F0B10092FFB5 /* RedEditTableViewController.swift */; };
+		BA81DD802702140E0092FFB5 /* GreenEditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA81DD7F2702140E0092FFB5 /* GreenEditTableViewController.swift */; };
+		BA81DD8227022ED30092FFB5 /* YellowEditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA81DD8127022ED30092FFB5 /* YellowEditTableViewController.swift */; };
+		BA81DD8527023E030092FFB5 /* OrangeEditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA81DD8427023E030092FFB5 /* OrangeEditTableViewController.swift */; };
+		BA81DD882702562E0092FFB5 /* StateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA81DD872702562E0092FFB5 /* StateManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BA81DD532701092E0092FFB5 /* DataTransfer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataTransfer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA81DD562701092E0092FFB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA81DD582701092E0092FFB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BA81DD5A2701092E0092FFB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BA81DD5D2701092E0092FFB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA81DD5F270109310092FFB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA81DD62270109310092FFB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA81DD64270109310092FFB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA81DD6A27010A450092FFB5 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
+		BA81DD6E27010AA30092FFB5 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		BA81DD7227010C120092FFB5 /* UIVIew - Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVIew - Extensions.swift"; sourceTree = "<group>"; };
+		BA81DD792701142A0092FFB5 /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		BA81DD7B2701C8130092FFB5 /* BlueEditTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueEditTableViewController.swift; sourceTree = "<group>"; };
+		BA81DD7D2701F0B10092FFB5 /* RedEditTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedEditTableViewController.swift; sourceTree = "<group>"; };
+		BA81DD7F2702140E0092FFB5 /* GreenEditTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenEditTableViewController.swift; sourceTree = "<group>"; };
+		BA81DD8127022ED30092FFB5 /* YellowEditTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowEditTableViewController.swift; sourceTree = "<group>"; };
+		BA81DD8427023E030092FFB5 /* OrangeEditTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeEditTableViewController.swift; sourceTree = "<group>"; };
+		BA81DD872702562E0092FFB5 /* StateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +76,70 @@
 			children = (
 				BA81DD562701092E0092FFB5 /* AppDelegate.swift */,
 				BA81DD582701092E0092FFB5 /* SceneDelegate.swift */,
-				BA81DD5A2701092E0092FFB5 /* ViewController.swift */,
-				BA81DD5C2701092E0092FFB5 /* Main.storyboard */,
+				BA81DD6D27010A8F0092FFB5 /* Models */,
+				BA81DD86270256070092FFB5 /* Managers */,
+				BA81DD6C27010A6F0092FFB5 /* Controllers */,
+				BA81DD7027010AC30092FFB5 /* Storyboards */,
+				BA81DD7127010BD80092FFB5 /* Views */,
 				BA81DD5F270109310092FFB5 /* Assets.xcassets */,
-				BA81DD61270109310092FFB5 /* LaunchScreen.storyboard */,
 				BA81DD64270109310092FFB5 /* Info.plist */,
 			);
 			path = DataTransfer;
+			sourceTree = "<group>";
+		};
+		BA81DD6C27010A6F0092FFB5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BA81DD6A27010A450092FFB5 /* ContactsTableViewController.swift */,
+				BA81DD792701142A0092FFB5 /* DetailTableViewController.swift */,
+				BA81DD8327022EF00092FFB5 /* Edit */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BA81DD6D27010A8F0092FFB5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BA81DD6E27010AA30092FFB5 /* Contact.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BA81DD7027010AC30092FFB5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				BA81DD5C2701092E0092FFB5 /* Main.storyboard */,
+				BA81DD61270109310092FFB5 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		BA81DD7127010BD80092FFB5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BA81DD7227010C120092FFB5 /* UIVIew - Extensions.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BA81DD8327022EF00092FFB5 /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				BA81DD7B2701C8130092FFB5 /* BlueEditTableViewController.swift */,
+				BA81DD8427023E030092FFB5 /* OrangeEditTableViewController.swift */,
+				BA81DD8127022ED30092FFB5 /* YellowEditTableViewController.swift */,
+				BA81DD7D2701F0B10092FFB5 /* RedEditTableViewController.swift */,
+				BA81DD7F2702140E0092FFB5 /* GreenEditTableViewController.swift */,
+			);
+			path = Edit;
+			sourceTree = "<group>";
+		};
+		BA81DD86270256070092FFB5 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				BA81DD872702562E0092FFB5 /* StateManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +213,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA81DD5B2701092E0092FFB5 /* ViewController.swift in Sources */,
+				BA81DD7A2701142A0092FFB5 /* DetailTableViewController.swift in Sources */,
+				BA81DD8227022ED30092FFB5 /* YellowEditTableViewController.swift in Sources */,
+				BA81DD6F27010AA30092FFB5 /* Contact.swift in Sources */,
 				BA81DD572701092E0092FFB5 /* AppDelegate.swift in Sources */,
+				BA81DD8527023E030092FFB5 /* OrangeEditTableViewController.swift in Sources */,
+				BA81DD7C2701C8130092FFB5 /* BlueEditTableViewController.swift in Sources */,
+				BA81DD7327010C120092FFB5 /* UIVIew - Extensions.swift in Sources */,
+				BA81DD7E2701F0B10092FFB5 /* RedEditTableViewController.swift in Sources */,
 				BA81DD592701092E0092FFB5 /* SceneDelegate.swift in Sources */,
+				BA81DD882702562E0092FFB5 /* StateManager.swift in Sources */,
+				BA81DD6B27010A450092FFB5 /* ContactsTableViewController.swift in Sources */,
+				BA81DD802702140E0092FFB5 /* GreenEditTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
